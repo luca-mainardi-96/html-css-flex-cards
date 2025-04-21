@@ -29,8 +29,10 @@ ul{
 /* utilities */
 
 .w-33prc{
-    width: 31%;
+    /* width: 31%; */
+    width: calc((100% - 40px) / 3);
 }
+
 
 /* content */
 
@@ -58,3 +60,4 @@ ul{
     align-content: space-between;
     padding-left: 10px;
 }
+
